@@ -11,7 +11,7 @@ public class Card {
      */
     public int getValue() {
         return value;
-    }                   //https://github.com/sivagamasheridan/ICE1_Wednesday_22.git
+    }                  
 
     /**
      * @param value the value to set
