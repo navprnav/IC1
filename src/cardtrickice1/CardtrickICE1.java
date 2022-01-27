@@ -7,7 +7,7 @@ public class CardtrickICE1 {
     
     public static void main(String[] args) 
     {
-        Card[] magicHand=new Card[7];
+        Card[] magicHand=new Card[7]; //Array of object
         for(int i=0;i<magicHand.length;i++)
         {
         Card c1=new Card();

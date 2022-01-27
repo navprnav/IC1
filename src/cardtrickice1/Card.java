@@ -2,9 +2,10 @@
 package cardtrickice1;
 
 public class Card {
-  private int value;
-          private String suits; 
-          String[]Suits={"diamomnd","clubs","spades","hearts"};
+          private int value;
+          private String suits; //encapsulation
+            //constant
+ public static final String [] SUITS = { "diamonds","clubs","spades","hearts"};
 
     /**
      * @return the value
@@ -33,11 +34,9 @@ public class Card {
     public void setSuits(String suits) {
         this.suits = suits;
     }
+    //number
+    
+    //method for suits
 
-    /**
-     * @param Suits the Suits to set
-     */
-    public void setSuits(String[] Suits) {
-        this.Suits = Suits;
-    }
+ 
 }
