@@ -29,7 +29,7 @@ public class Card {
 
     /**
      * @param suits the suits to set
-     */
+     **/
     public void setSuits(String suits) {
         this.suits = suits;
     }
