@@ -3,9 +3,8 @@ package cardtrickice1;
 
 public class Card {
           private int value;
-          private String suits; //encapsulation
-            //constant
- public static final String [] SUITS = { "diamonds","clubs","spades","hearts"};
+          private String suits; 
+ public static final String [] SUITS = {"Diamonds","Clubs","Spades","Hearts"};
 
     /**
      * @return the value
@@ -34,9 +33,12 @@ public class Card {
     public void setSuits(String suits) {
         this.suits = suits;
     }
-    //number
-    
-    //method for suits
+   public String toString()
+   {
+  //  return Card{"suit=" + suit +" value=" + value + };
+   return suits+" "+value;
+   }
 
+    }
  
-}
+
