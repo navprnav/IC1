@@ -43,7 +43,8 @@ public class CardtrickICE1 {
         boolean found = false;
         System.out.println("Searching for: " + cardTrick);
         
-        for (int i = 0; i < magicHand.length; i++) {  //0 - 1  - 2 - 3 - 4 - 
+        for (int i = 0; i < magicHand.length; i++) 
+        {  
             if ((magicHand[i].getValue() == cardTrick.getValue()) && magicHand[i].getSuits().equalsIgnoreCase(cardTrick.getSuits())) {
                 System.out.println("Card is found in magic hand at index " + (i+1));
                 found = true;
